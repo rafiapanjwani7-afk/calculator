@@ -2,33 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
 }
-
 body {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(https://addons-media.operacdn.com/media/CACHE/images/themes/98/229598/1.0-rev2/images/c429db939c08a4a8d8d3975c76674635/ddae2529d71d78df87bbe75f4b386b1a.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: #EEAECA;
+    background: radial-gradient(circle, rgb(198, 203, 238) 100%, rgb(231, 187, 206) 0%);
+    
+    
 }
-
 .calculator {
     width: 300px;
     background-color: #f2f2f2;
-    padding: 20px;
+    padding: 25px;
     border-radius: 15px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     background-color: rgb(14, 14, 13);
-    border: 1px solid rgb(90, 90, 85);
-    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    background: #EEAECA;
+    background: radial-gradient(circle, rgb(235, 180, 204) 0%, rgb(156, 196, 241) 100%);
+    border: 1px solid #333;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px;
+   
 }
-
 input {
     width: 100%;
-    height: 50px;
+    height: 55px;
     margin-bottom: 20px;
     padding: 10px;
     font-size: 24px;
@@ -38,21 +39,17 @@ input {
     color: #fff;
     text-align: right;
 }
-
 .clear {
     width: 46%;
     color: #d80020;
     font-size: 18px;
     font-weight: bold;
-
 }
-
 .delete {
     color: #d80020;
     font-size: 18px;
     font-weight: bold;
 }
-
 button {
     width: 21.5%;
     height: 50px;
@@ -60,68 +57,58 @@ button {
     font-size: 18px;
     border: none;
     border-radius: 20px;
-    background-color: #9a9fb4da;
+    background-color: #9ea7ccda;
     color: #000;
-    text-shadow: 5px 5px 5px #6e6969;
     font-weight: bold;
     cursor: pointer;
     box-shadow: 0px 18px 36px rgba(0, 0, 0, 0.4), inset 0px -18px 36px rgba(50, 50, 93, 0.25);
 }
-
 button:hover {
     color: #3e4563;
+    text-shadow: 3px 3px 3px #6e6969;
     background-color: #5e615f;
-    text-shadow: 5px 5px 5px #6e6969;
+     background-color: #9a9fb4da;
     font-weight: bold;
-    cursor: grab;
+    cursor: pointer;
 }
-
 button:focus {
-    text-shadow: 5px 5px 5px #272626;
+    text-shadow: 4px 4px 4px #272626;
     background-color: #033f03;
     background-color: #8690bb;
     color: #fff;
 
 }
-
 .operator {
     background-color: #ff9800;
     color: #fff;
     color: #000;
     background-color: #e67e22;
-    text-shadow: 5px 5px 5px #6e6969;
     font-weight: bold;
 }
-
 .operator:hover {
     background-color: #ff9800;
     color: #fff;
     background-color: #e67e22;
-    text-shadow: 5px 5px 5px #6e6969;
+    text-shadow: 3px 3px 3px #6e6969;
     font-weight: bold;
     cursor: grab;
 }
-
 .operator:focus {
     background-color: #ff9800;
     color: #fff;
     outline: none;
     background-color: #d35400;
-    text-shadow: 5px 5px 5px #272626;
+    text-shadow: 4px 4px 4px #272626;
 }
-
 .delete:hover {
     color: #000;
 }
-
 .clear:hover {
     color: #000;
 }
-
 .delete:focus {
     color: #ad031c;
 }
-
 .clear:focus {
     color: #ad031c;
     font-weight: bold;
