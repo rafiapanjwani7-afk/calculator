@@ -12,31 +12,31 @@
         <div class="buttons">
             <button class="clear" onclick="clearAll()">AC</button>
             <button class="delete" onclick="del()">DEL</button>
-            <button class="operator" onclick="inputNumber('%')">%</button>
+            <button class="operator" onclick="setOperator('%')">%</button>
         </div>
         <div class="button">
             <button onclick="inputNumber(7)">7</button>
             <button onclick="inputNumber(8)">8</button>
             <button onclick="inputNumber(9)">9</button>
-            <button class="operator" onclick="inputNumber('/')">/</button>
+            <button class="operator" onclick="setOperator('/')">/</button>
         </div>
         <div class="button">
             <button onclick="inputNumber(4)">4</button>
             <button onclick="inputNumber(5)">5</button>
             <button onclick="inputNumber(6)">6</button>
-            <button class="operator" onclick="inputNumber('*')">x</button>
+            <button class="operator" onclick="setOperator('*')">x</button>
         </div>
         <div class="button">
             <button onclick="inputNumber(1)">1</button>
             <button onclick="inputNumber(2)">2</button>
             <button onclick="inputNumber(3)">3</button>
-            <button class="operator" onclick="inputNumber('-')">-</button>
+            <button class="operator" onclick="setOperator('-')">-</button>
         </div>
         <div class="button">
             <button onclick="inputNumber(0)">0</button>
             <button onclick="inputNumber('.')">.</button>
             <button onclick="calculate()">=</button>
-            <button class="operator" onclick="inputNumber('+')">+</button>
+            <button class="operator" onclick="setOperator('+')">+</button>
         </div>
     </div>
     <script src="app.js"></script>
